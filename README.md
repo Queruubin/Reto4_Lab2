@@ -1,13 +1,14 @@
-# 📄 Documentación del Patrón de Diseño
+## Samuel Felipe Castelblanco Tellez
+## Tomas Olaya Diaz
 
 ### 1. Categoría del Patrón
-**Patrones de Comportamiento.**
+**Patrones de Comportamiento**
 
 ### 2. Patrón Utilizado
-**Strategy (Estrategia).**
+**Strategy**
 
 ### 3. Justificación
-Se eligió este patrón para eliminar la lógica rígida de una tasa única y permitir que el sistema soporte múltiples algoritmos de conversión (tasas reales) que pueden cambiar o aumentar en el futuro. Esto permite que el código cumpla con el principio de **Responsabilidad Única** y sea **Fácilmente Extensible** (Open/Closed Principle), ya que añadir una nueva moneda no requiere modificar la lógica principal de la aplicación.
+Se eligió este patrón para eliminar la lógica rígida de una tasa única y permitir que el sistema soporte múltiples algoritmos de conversión (tasas reales) que pueden cambiar o aumentar en el futuro. Esto permite que el código cumpla con el principio de **Responsabilidad Única** y sea **Fácilmente Extensible** ya que añadir una nueva moneda no requiere modificar la lógica principal de la aplicación.
 
 ### 4. Cómo lo aplico
 * **Interfaz `Conversor`:** Define el contrato común para todas las lógicas de cambio.
